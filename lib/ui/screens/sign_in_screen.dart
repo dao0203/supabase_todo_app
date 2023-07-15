@@ -5,8 +5,8 @@ import 'package:supabase_todo_app/ui/screens/sign_up_screen.dart';
 import 'package:supabase_todo_app/ui/screens/todo_list_screen.dart';
 import 'package:supabase_todo_app/ui/viewmodels/sign_in_view_model.dart';
 
-class LoginScreen extends HookConsumerWidget {
-  const LoginScreen({super.key});
+class SignInScreen extends HookConsumerWidget {
+  const SignInScreen({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

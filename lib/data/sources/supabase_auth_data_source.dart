@@ -5,10 +5,7 @@ class SupabaseAuthDataSource implements AuthDataSource {
   final GoTrueClient _auth = Supabase.instance.client.auth;
   @override
   Future<void> signIn(String email, String password) async {
-    await _auth.signInWithPassword(
-      email: email,
-      password: password,
-    );
+    await _auth.signInWithPassword(password: password, email: email);
   }
 
   @override
