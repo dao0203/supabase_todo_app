@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:supabase_todo_app/ui/viewmodel/todo_list_view_model.dart';
+import 'package:supabase_todo_app/ui/viewmodels/todo_list_view_model.dart';
 
 class TodoListScreen extends HookConsumerWidget {
   const TodoListScreen({Key? key}) : super(key: key);
